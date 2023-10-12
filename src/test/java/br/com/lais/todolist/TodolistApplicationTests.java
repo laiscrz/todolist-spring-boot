@@ -1,4 +1,4 @@
-package br.com.laiscruz.todolist;
+package br.com.lais.todolist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

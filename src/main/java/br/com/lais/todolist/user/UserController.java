@@ -32,9 +32,11 @@ public class UserController {
     /*
       * Body - Corpo
     */
-    @PostMapping("/")
-    public void create(@RequestBody UserModel userModel){
-        System.out.println(userModel.name);
-    }
+  @PostMapping("/")
+  public void create(@RequestBody UserModel userModel){
+    System.out.println(userModel.getUsername());
+  }
+
+    
 
 }
